@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
       - name: List the content of the repository
         run: |
-          ls
+          ls python
       - name: execute python script # run file
         run: |
-          python python/my_file.py
+          python my_file.py
