@@ -22,9 +22,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-      - name: List the content of the repository
+      - name: Print the working directory
         run: |
           pwd
-      - name: execute python script # run file
+      - name: Execute python script # run file
         run: |
           python python/print_n_numbers.py
