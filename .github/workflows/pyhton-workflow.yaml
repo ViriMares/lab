@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
       - name: List the content of the repository
         run: |
-          ls python
+          ls
       - name: execute python script # run file
         run: |
-          python my_file.py
+          python print_n_numbers.py
